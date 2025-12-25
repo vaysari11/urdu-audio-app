@@ -12,7 +12,7 @@ api_key = st.sidebar.text_input("Paste your Gemini API Key here:", type="passwor
 
 if api_key:
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-1.5-pro')
+    model = genai.GenerativeModel('models/gemini-1.5-pro')
 
     # 3. File Uploader
     uploaded_files = st.file_uploader("Upload Urdu Pages (Images/PDF)", accept_multiple_files=True)
