@@ -1,1 +1,3 @@
-google-generativeai gTTS stream
+google-generativeai
+gTTS
+streamlit
